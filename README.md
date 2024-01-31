@@ -184,3 +184,15 @@ if(__name__) == '__main__':
 
 We will write the path app.route('/', methods = ['POST']) for it. This decorator means that our home function will be called every time our FLASK server .
 
+
+# Steps to run bot
+
+Run flask app
+> flask run
+
+Run ngrok to obtain URL
+> ngrok http 5000
+
+Copy and Paste URL (forward) to UltraMsg to generate webhook. Save.
+
+Now you can start Sending message to declare phone on UltraMsg instance.
